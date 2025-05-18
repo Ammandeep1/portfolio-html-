@@ -11,19 +11,19 @@
 
     <nav id="navbar">
         <ul>
-            <li><a href="index.html">home page</a></li>
-            <li><a href="bio.html">Bio page</a></li>
-			<li><a href="Portfolio.html">Portfolio page</a></li>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="bio.html">Bio Page</a></li>
+            <li><a href="Portfolio.html">Portfolio Page</a></li>
         </ul>
     </nav>
 
     <div class="media-text-section">
         <div class="side-media picture-container">
-            <img src="images/IMG-20241209-WA0000.jpg" alt="Photo of Ammandeep" class="profile-img">
+            <img src="images/ammandeep.jpg" alt="Photo of Ammandeep" class="profile-img">
         </div>
 
         <div class="about-me-text">
-            <h2>About me</h2>
+            <h2>About Me</h2>
             <p>
                 Hi, I’m Ammandeep — a 19-year-old with a passion for coding, gaming, and the gym.
                 From a young age, I’ve always been a gamer. I played my first game at just 5 years old on my cousin’s GameCube, 
@@ -61,5 +61,35 @@
         and play a role in creating a safer online world. While I have a clear focus on cybersecurity, I remain open to exploring the different 
         specialisations within the field as I gain more experience.
     </p>
+	
+	<section id="feedback-section">
+    <h2>Feedback Form</h2>
+    <form action="ThankYou.php" method="POST" id="feedback-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="feedback">Your Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+	
+	<footer>
+    <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="Facebook" class="social-icon">
+        </a>
+        <a href="https://www.linkedin.com" target="_blank">
+            <img src="images/linkedin.png" alt="LinkedIn" class="social-icon">
+        </a>
+    </div>
+    <p class="footer-text">&copy; 2025 Ammandeep. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
